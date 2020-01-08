@@ -1,0 +1,49 @@
+{
+    "Ontologies":{
+		
+		"NCIT":{
+			"Path":"C:/Users/david/Desktop/ncit.owl",
+			"Prefix":"http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"},						
+		
+		"IOBC":{
+			"Path":"C:/Users/david/Desktop/IOBC(edit).xrdf",
+			"Prefix":"http://purl.jp/bio/4/id"}
+	},
+
+			
+	"Similarity Settings":{
+	
+		"ID1":{
+			"Groupwise":"SimGIC",
+			"IC":"Sanchez2011"},			
+		
+		"ID2":{
+			"Groupwise":"SimGIC",
+			"IC":"Seco2004"},
+
+		"ID3":{
+			"Groupwise":"BMA",
+			"Pairwise":"Resnik1995",
+			"IC":"Sanchez2011"},
+				
+		"ID4":{
+			"Groupwise":"BMA",
+			"Pairwise":"Resnik1995",
+			"IC":"Seco2004"}
+	},
+	
+	
+	"Object_Data":"C:\\Users\\david\\Desktop\\file.tsv",
+	"Querries":{
+	
+		"Q1":{
+			"Path":"C:/Users/david/Desktop/query.tsv",
+			"SSM_ID":"ID1,ID2,ID3,ID4",
+			"Results":"C:\\Users\\david\\Desktop\\Benchmark_SSMlib.csv",
+			"Clusters":{"K":"3",
+						"Score":"ID1,ID2,ID3,ID4",
+						"Cluster Path":"C:\\Users\\david\\Desktop"}
+			}
+	}
+}
+
